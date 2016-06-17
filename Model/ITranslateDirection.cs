@@ -2,7 +2,7 @@
 {
     public interface ITranslateDirection
     {
-        string GetWord(WordsPair pair);
-        string GetTranslate(WordsPair pair);
+        Word GetQuestion(WordsPair pair);
+        Word GetTranslate(WordsPair pair);
     }
 }

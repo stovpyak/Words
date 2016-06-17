@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Model;
 using Model.IO;
 using Model.Strategy;
@@ -9,10 +10,13 @@ namespace Words
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+         
             Console.WriteLine("Английские слова:");
 
             var speaker = new ConsoleSpeaker();
             var listener = new ConsoleListener();
+
             
             // todo: сам выбор оставить во View, а последствия выбора в модель
             Console.WriteLine("Выберите режим:");

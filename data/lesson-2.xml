@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<Words>
+	<word first="old" second="старый"/>
+	<word first="young" second="молодой"/>
+	<word first="kind" second="добрый"/>
+	<word first="unkind" second="злой"/>
+	<word first="angry" second="сердитый"/>
+	<word first="sad" second="грустный"/>
+	<word first="pessimistic" second="пессимистичный"/>
+	<word first="optimistic" second="оптимистичный"/>
+	<word first="hungry" second="голодный"/>
+	<word first="full" second="сытый"/>
+	<word first="tired" second="уставший"/>
+	<word first="energetic" second="энергичный"/>
+	<word first="lazy" second="ленивый"/>
+	<word first="hard-working" second="трудолюбивый"/>
+	<word first="happy" second="счастливый"/>
+	<word first="unhappy" second="несчастный"/>
+	<word first="clever" second="умный"/>
+	<word first="silly" second="глупый"/>
+	<word first="heir" second="волосы"/>
+	<word first="straight" second="прямые"/>
+	<word first="wavy" second="волнистые"/>
+</Words>

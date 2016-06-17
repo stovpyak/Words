@@ -2,12 +2,12 @@
 {
     public class RussianToEnglish: ITranslateDirection
     {
-        public string GetWord(WordsPair pair)
+        public Word GetQuestion(WordsPair pair)
         {
             return pair.Second;
         }
 
-        public string GetTranslate(WordsPair pair)
+        public Word GetTranslate(WordsPair pair)
         {
             return pair.First;
         }
