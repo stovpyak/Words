@@ -2,14 +2,13 @@
 {
     public class WordsPair
     {
-        public WordsPair(string first, string second)
+        public WordsPair(Word first, Word second)
         {
             First = first;
             Second = second;
         }
 
-        public string First { get; private set; }
-        public string Second { get; private set; }
-
+        public Word First { get; private set; }
+        public Word Second { get; private set; }
     }
 }

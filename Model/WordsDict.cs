@@ -27,10 +27,10 @@ namespace Model
 
         private void SampleInitDict()
         {
-            _pairs.Add(new WordsPair("bold", "лысый"));
-            _pairs.Add(new WordsPair("ugly", "ужасный"));
-            _pairs.Add(new WordsPair("slim", "стройный"));
-            _pairs.Add(new WordsPair("tall", "высокий"));
+            _pairs.Add(new WordsPair(new Word("bold"), new Word("лысый")));
+            _pairs.Add(new WordsPair(new Word("ugly"), new Word("ужасный")));
+            _pairs.Add(new WordsPair(new Word("slim"), new Word("стройный")));
+            _pairs.Add(new WordsPair(new Word("tall"), new Word("высокий")));
         }
 
         public IEnumerable<WordsPair> AllWords => _pairs;

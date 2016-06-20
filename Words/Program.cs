@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Model;
 using Model.IO;
 using Model.Strategy;
@@ -9,10 +10,13 @@ namespace Words
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+         
             Console.WriteLine("Английские слова:");
 
             var speaker = new ConsoleSpeaker();
             var listener = new ConsoleListener();
+
             
             // todo: сам выбор оставить во View, а последствия выбора в модель
             Console.WriteLine("Выберите режим:");
@@ -20,6 +24,7 @@ namespace Words
             Console.WriteLine("2) Тест: English -> Русский");
             Console.WriteLine("3) Тест: Русский -> English");
             var mode = Console.ReadLine();
+
 
             IPlayStrategy playStrategy;
             if (mode == "1")
@@ -42,10 +47,11 @@ namespace Words
             var xml = new XmlDictionary();
             var wordsSource = new WordsDict();
             // todo: какие словари использовать пока зашито в код
-            wordsSource.AddWords(xml.ReadFromFile("lesson-1.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-2.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-3. character.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-3. jobs.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-1.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-2.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-3. character.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-3. jobs.xml"));
+            wordsSource.AddWords(xml.ReadFromFile("lesson-4.xml"));
 
             Console.WriteLine("Для выхода введите Q");
 

@@ -8,12 +8,12 @@ namespace Model
 {
     public class EnglishToRussian: ITranslateDirection
     {
-        public string GetWord(WordsPair pair)
+        public Word GetQuestion(WordsPair pair)
         {
             return pair.First;
         }
 
-        public string GetTranslate(WordsPair pair)
+        public Word GetTranslate(WordsPair pair)
         {
             return pair.Second;
         }

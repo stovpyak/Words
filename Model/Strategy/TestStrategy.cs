@@ -23,14 +23,14 @@
             int currentCount = 0;
             while (currentCount < _maxCountForOneWord)
             {
-                _speaker.Speak($"{_translateDirection.GetWord(pair)}: ");
+                _speaker.Speak($"{_translateDirection.GetQuestion(pair)}: ");
                 var input = _listener.Input();
                 if ((input == "Q") || (input == "q") || (input == "й") || (input == "Й"))
                 {
                     isExit = true;
                     break;
                 }
-                if (_translateDirection.GetTranslate(pair) == input)
+                if (_translateDirection.GetTranslate(pair).Caption == input)
                 {
                     _speaker.Speak("Oк!");
                     break;
