@@ -47,10 +47,11 @@ namespace Words
             var xml = new XmlDictionary();
             var wordsSource = new WordsDict();
             // todo: какие словари использовать пока зашито в код
-            wordsSource.AddWords(xml.ReadFromFile("lesson-1.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-2.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-3. character.xml"));
-            wordsSource.AddWords(xml.ReadFromFile("lesson-3. jobs.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-1.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-2.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-3. character.xml"));
+            //wordsSource.AddWords(xml.ReadFromFile("lesson-3. jobs.xml"));
+            wordsSource.AddWords(xml.ReadFromFile("lesson-4.xml"));
 
             Console.WriteLine("Для выхода введите Q");
 
