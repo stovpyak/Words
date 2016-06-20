@@ -25,6 +25,7 @@ namespace Words
             Console.WriteLine("3) Тест: Русский -> English");
             var mode = Console.ReadLine();
 
+
             IPlayStrategy playStrategy;
             if (mode == "1")
             {
