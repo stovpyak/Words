@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<Words>
+	<word first="always" transcription="'??lwe?z" second="всегда"/>
+	<word first="usually" transcription="['ju??(?)l?" second="обычно"/>
+	<word first="often" transcription="'?f(t)(?)n" second="часто"/>
+	<word first="seldom" transcription="'seld?m" second="редко"/>
+	<word first="sometimes" transcription="'s?mta?mz" second="иногда"/>
+	<word first="never" transcription="'nev?" second="никогда"/>
+	<word first="every day" second="каждый день"/>
+	<word first="at weekends" second="в выходные"/>
+	<word first="once a week" second="один раз в неделю"/>
+	<word first="twice a year" second="два раза в год"/>
+	<word first="three times a month" second="три раза в месяц"/>
+</Words>

@@ -1,23 +1,27 @@
-﻿namespace Model.Strategy
+﻿using Model.StrategyContracts;
+
+namespace Model.Strategy
 {
-    public class TeachStrategy: IPlayStrategy
+    public class TeachOnlyShowStrategy: IPlayStrategy
     {
         private readonly ISpeaker _speaker;
         private readonly IListener _listener;
     
-        public TeachStrategy(ISpeaker speaker, IListener listener)
+        public TeachOnlyShowStrategy(ISpeaker speaker, IListener listener)
         {
             _speaker = speaker;
             _listener = listener;
         }
 
-        public void PlayOnePair(WordsPair pair, out bool isExit)
+        public string Name => "Обучение (только смотрим)";
+
+        public void PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
         {
             isExit = false;
 
             _speaker.Speak($"{pair.First} = {pair.Second}");
             var input = _listener.Input();
-            if ((input == "Q") || (input == "q") || (input == "й") || (input == "Й"))
+            if (checkIsExit.IsExit(input))
             {
                 isExit = true;
             }

@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27646B17-C4F7-4A86-ADD0-AEE5719663E6}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{246FE89B-D7FA-4DD3-AB37-9E338B8E49DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Words</RootNamespace>
-    <AssemblyName>Words</AssemblyName>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,25 +40,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleListener.cs" />
-    <Compile Include="ConsoleSpeaker.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Appl.cs" />
+    <Compile Include="ICheckIsExit.cs" />
+    <Compile Include="IListener.cs" />
+    <Compile Include="IO\XmlDictionary.cs" />
+    <Compile Include="IO\XmlWorldSource.cs" />
+    <Compile Include="IsExitEnums.cs" />
+    <Compile Include="ISpeaker.cs" />
+    <Compile Include="IWordDict.cs" />
+    <Compile Include="IWorldSource.cs" />
+    <Compile Include="Playing.cs" />
+    <Compile Include="StrategyContracts\IPlayStrategy.cs" />
+    <Compile Include="StrategyContracts\IStrategyFactory.cs" />
+    <Compile Include="StrategyContracts\IStrategySelector.cs" />
+    <Compile Include="StrategyContracts\ITranslateDirection.cs" />
+    <Compile Include="Strategy\EnglishToRussian.cs" />
+    <Compile Include="Strategy\RussianToEnglish.cs" />
+    <Compile Include="Strategy\StrategyFactory.cs" />
+    <Compile Include="Strategy\TeachOnlyShowStrategy.cs" />
+    <Compile Include="Strategy\TeachWriteStrategy.cs" />
+    <Compile Include="Strategy\TestStrategy.cs" />
+    <Compile Include="Word.cs" />
+    <Compile Include="WordsDict.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StrategySelector.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Worlds.Model\Worlds.Model.csproj">
-      <Project>{246fe89b-d7fa-4dd3-ab37-9e338b8e49da}</Project>
-      <Name>Worlds.Model</Name>
-    </ProjectReference>
+    <Compile Include="WordsPair.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /y /e "$(SolutionDir)data\*.xml" "$(TargetDir)"</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

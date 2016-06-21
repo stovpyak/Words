@@ -7,7 +7,7 @@
 	<word first="eyebrows" second="брови"/>
 	<word first="chin" second="подбородок"/>
 	<word first="shoulders" second="плечи"/>
-	<word first="breasts" second="грудь (женская)"/>
+	<word first="breasts" transcription="brest" second="грудь женская"/>
 	<word first="hand" second="кисть"/>
 	<word first="tummy" second="живот"/>
 	<word first="legs" second="ноги"/>
@@ -18,7 +18,7 @@
 	<word first="teeth" second="зубы"/>
 	<word first="neck" second="шея"/>
 	<word first="back" second="спина"/>
-	<word first="chest" second="грудь (мужская)"/>
+	<word first="chest" second="грудь мужская"/>
 	<word first="arm" second="рука"/>
 	<word first="fingers" second="пальцы рук"/>
 	<word first="arm" second="рука"/>
@@ -34,4 +34,5 @@
 	<word first="freckles" second="веснушки"/>
 	<word first="scar" second="шрам"/>
 	<word first="tattoo" second="татуировка"/>
+	<word first="wavy" second="волнистые"/>
 </Words>

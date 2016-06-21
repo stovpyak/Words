@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Model.StrategyContracts;
 
-namespace Model
+namespace Model.Strategy
 {
     public class EnglishToRussian: ITranslateDirection
     {
+        public string Name => "English -> Русский";
+
         public Word GetQuestion(WordsPair pair)
         {
             return pair.First;
