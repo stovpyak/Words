@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Words.Model.StrategyContracts;
 
 namespace Word.WpfAppl
@@ -11,7 +7,7 @@ namespace Word.WpfAppl
     {
         public IPlayStrategy Select(List<IPlayStrategy> strategies)
         {
-            return null;
+            return strategies[0];
         }
     }
 }

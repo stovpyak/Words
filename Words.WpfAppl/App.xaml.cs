@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using Word.WpfAppl.View;
+using Word.WpfAppl.ViewModel;
 using Words.Model;
 using Words.Model.IO;
 using Words.Model.Strategy;
@@ -21,10 +23,19 @@ namespace Word.WpfAppl
             var worldSource = new XmlWorldSource();
 
             var appl = new Appl(strategyFactory, strategySelector, worldSource);
-            appl.Run();
 
+            var view = new MainWindow
+            {
+                Width = 800,
+                Height = 400,
+            };
 
-            //StartupUri = "MainWindow.xaml"
+            var viewModel = new MainViewModel();
+            view.DataContext = viewModel;
+
+            view.Show();
+
+            //appl.Run();
         }
     }
 }
