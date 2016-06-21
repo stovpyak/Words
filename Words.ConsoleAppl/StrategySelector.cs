@@ -23,8 +23,7 @@ namespace Words.ConsoleAppl
                 {
                     return strategies[index];
                 }
-                else
-                    Console.WriteLine($"Вы ввели некорректное число. Попробуйте ещё раз...");
+                Console.WriteLine($"Вы ввели некорректное число. Попробуйте ещё раз...");
             }
         }
     }

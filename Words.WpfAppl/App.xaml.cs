@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using Words.Model;
+using Words.Model.IO;
+using Words.Model.Strategy;
+using Words.Model.StrategyContracts;
 
 namespace Word.WpfAppl
 {
@@ -15,7 +13,15 @@ namespace Word.WpfAppl
     {
         private void App_OnStartup(object sender, StartupEventArgs e)
         {
-            //var model = 
+            var speaker = new SpeakerDummy();
+            var listener = new ListenerDummy();
+
+            IStrategyFactory strategyFactory = new StrategyFactory(speaker, listener);
+            var strategySelector = new StrategySelector();
+            var worldSource = new XmlWorldSource();
+
+            var appl = new Appl(strategyFactory, strategySelector, worldSource);
+            appl.Run();
 
 
             //StartupUri = "MainWindow.xaml"
