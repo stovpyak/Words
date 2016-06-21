@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Model.IO
+namespace Words.Model.IO
 {
     public class XmlWorldSource: IWorldSource
     {

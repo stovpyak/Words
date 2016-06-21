@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Model
+namespace Words.Model
 {
     public interface IWorldSource
     {

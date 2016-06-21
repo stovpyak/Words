@@ -1,7 +1,6 @@
-﻿using Model.Strategy;
-using Model.StrategyContracts;
+﻿using Words.Model.StrategyContracts;
 
-namespace Model
+namespace Words.Model
 {
     public class Playing
     {

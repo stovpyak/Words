@@ -1,8 +1,8 @@
 ﻿using System;
-using Model;
-using Model.IO;
-using Model.Strategy;
-using Model.StrategyContracts;
+using Words.Model;
+using Words.Model.IO;
+using Words.Model.Strategy;
+using Words.Model.StrategyContracts;
 
 namespace Words
 {

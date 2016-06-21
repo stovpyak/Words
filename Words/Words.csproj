@@ -53,9 +53,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Worlds.Model\Worlds.Model.csproj">
+    <ProjectReference Include="..\Words.Model\Words.Model.csproj">
       <Project>{246fe89b-d7fa-4dd3-ab37-9e338b8e49da}</Project>
-      <Name>Worlds.Model</Name>
+      <Name>Words.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

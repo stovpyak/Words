@@ -1,4 +1,4 @@
-﻿namespace Model.StrategyContracts
+﻿namespace Words.Model.StrategyContracts
 {
     public interface IPlayStrategy
     {

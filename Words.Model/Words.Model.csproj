@@ -7,8 +7,8 @@
     <ProjectGuid>{246FE89B-D7FA-4DD3-AB37-9E338B8E49DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>Words.Model</RootNamespace>
+    <AssemblyName>Words.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,13 +47,13 @@
     <Compile Include="IO\XmlWorldSource.cs" />
     <Compile Include="IsExitEnums.cs" />
     <Compile Include="ISpeaker.cs" />
-    <Compile Include="ITranslateDirection.cs" />
     <Compile Include="IWordDict.cs" />
     <Compile Include="IWorldSource.cs" />
     <Compile Include="Playing.cs" />
     <Compile Include="StrategyContracts\IPlayStrategy.cs" />
     <Compile Include="StrategyContracts\IStrategyFactory.cs" />
     <Compile Include="StrategyContracts\IStrategySelector.cs" />
+    <Compile Include="StrategyContracts\ITranslateDirection.cs" />
     <Compile Include="Strategy\EnglishToRussian.cs" />
     <Compile Include="Strategy\RussianToEnglish.cs" />
     <Compile Include="Strategy\StrategyFactory.cs" />

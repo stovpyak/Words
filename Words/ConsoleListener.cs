@@ -1,5 +1,5 @@
 ﻿using System;
-using Model;
+using Words.Model;
 
 namespace Words
 {

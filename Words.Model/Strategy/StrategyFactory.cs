@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Model.StrategyContracts;
+using Words.Model.StrategyContracts;
 
-namespace Model.Strategy
+namespace Words.Model.Strategy
 {
     public class StrategyFactory: IStrategyFactory
     {

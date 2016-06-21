@@ -1,6 +1,6 @@
-﻿using Model.StrategyContracts;
+﻿using Words.Model.StrategyContracts;
 
-namespace Model.Strategy
+namespace Words.Model.Strategy
 {
     public class TeachWriteStrategy: IPlayStrategy
     {

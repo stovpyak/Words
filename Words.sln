@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Words.ViewModels", "Words.V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word.WpfAppl", "Word.WpfAppl\Word.WpfAppl.csproj", "{07D50D38-A1D4-4429-BE39-274845757FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worlds.Model", "Worlds.Model\Worlds.Model.csproj", "{246FE89B-D7FA-4DD3-AB37-9E338B8E49DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Words.Model", "Words.Model\Words.Model.csproj", "{246FE89B-D7FA-4DD3-AB37-9E338B8E49DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Model.Strategy;
-using Model.StrategyContracts;
+using Words.Model.StrategyContracts;
 
 namespace Words
 {

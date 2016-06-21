@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace Model.IO
+namespace Words.Model.IO
 {
     public class XmlDictionary
     {

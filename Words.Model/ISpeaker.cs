@@ -1,4 +1,4 @@
-﻿namespace Model
+﻿namespace Words.Model
 {
     public interface ISpeaker
     {
