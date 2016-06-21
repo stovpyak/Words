@@ -7,8 +7,8 @@
     <ProjectGuid>{27646B17-C4F7-4A86-ADD0-AEE5719663E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Words</RootNamespace>
-    <AssemblyName>Words</AssemblyName>
+    <RootNamespace>Words.ConsoleAppl</RootNamespace>
+    <AssemblyName>Words.ConsoleAppl</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,7 +4,7 @@ using Words.Model.IO;
 using Words.Model.Strategy;
 using Words.Model.StrategyContracts;
 
-namespace Words
+namespace Words.ConsoleAppl
 {
     class Program
     {

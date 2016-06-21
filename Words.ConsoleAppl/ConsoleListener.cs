@@ -1,7 +1,7 @@
 ﻿using System;
 using Words.Model;
 
-namespace Words
+namespace Words.ConsoleAppl
 {
     public class ConsoleListener: IListener
     {

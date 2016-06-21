@@ -1,11 +1,11 @@
 /Words.Model/obj
 /Words.Model/bin
-/Words/obj
-/Words/bin
+/Words.ConsoleAppl/obj
+/Words.ConsoleAppl/bin
 /Words.ViewModels/obj
 /Words.ViewModels/bin
-/Word.WpfAppl/obj
-/Word.WpfAppl/bin
+/Words.WpfAppl/obj
+/Words.WpfAppl/bin
 
 
 /.vs/Words/v14/.suo

@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Words.Model;
 
-namespace Words
+namespace Words.ConsoleAppl
 {
     public class ConsoleSpeaker: ISpeaker
     {

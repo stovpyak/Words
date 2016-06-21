@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Words.Model.StrategyContracts;
 
-namespace Words
+namespace Words.ConsoleAppl
 {
     public class StrategySelector: IStrategySelector
     {
