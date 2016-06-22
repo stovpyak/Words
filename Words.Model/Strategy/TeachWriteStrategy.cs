@@ -35,17 +35,17 @@ namespace Words.Model.Strategy
             else
                 _speaker.Speak($"No. Правильно {pair.First}");
 
-            _speaker.Speak("Введите второе слово:");
-            var second = _listener.Input();
-            if (checkIsExit.IsExit(second))
-            {
-                isExit = true;
-                return;
-            }
-            if (second == pair.Second.Caption)
-                _speaker.Speak("Ok!");
-            else
-                _speaker.Speak($"No. Правильно {pair.Second}");
+            //_speaker.Speak("Введите второе слово:");
+            //var second = _listener.Input();
+            //if (checkIsExit.IsExit(second))
+            //{
+            //    isExit = true;
+            //    return;
+            //}
+            //if (second == pair.Second.Caption)
+            //    _speaker.Speak("Ok!");
+            //else
+            //    _speaker.Speak($"No. Правильно {pair.Second}");
         }
     }
 }
