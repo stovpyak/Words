@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="friend" second="����"/>
-	<word first="job" second="������"/>
-	<word first="late" second="����������"/>
-	
+	<word first="friend" second="друг"/>
+	<word first="job" second="работа"/>
+	<word first="late" second="опоздавший"/>
+	<word first="I have" second="у меня есть"/>
+	<word first="you have" second="у тебя есть"/>
+	<word first="we have" second="у нас есть"/>
+	<word first="they have" second="у них есть"/>
+	<word first="he has" second="у него есть"/>
+	<word first="she has" second="у неё есть"/>
 </Words>

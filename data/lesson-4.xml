@@ -1,38 +1,37 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="head" second="голова"/>
-	<word first="ears" second="уши"/>
-	<word first="mouth" second="рот"/>
-	<word first="eyebrows" second="брови"/>
-	<word first="chin" second="подбородок"/>
-	<word first="shoulders" second="плечи"/>
-	<word first="breasts" transcription="brest" second="грудь женская"/>
-	<word first="hand" second="кисть"/>
-	<word first="tummy" second="живот"/>
-	<word first="legs" second="ноги"/>
-	<word first="nose" second="нос"/>
-	<word first="lips" second="губы"/>
-	<word first="cheek" second="щека"/>
-	<word first="tooth" second="зуб"/>
-	<word first="teeth" second="зубы"/>
-	<word first="neck" second="шея"/>
-	<word first="back" second="спина"/>
-	<word first="chest" second="грудь мужская"/>
-	<word first="arm" second="рука"/>
-	<word first="fingers" second="пальцы рук"/>
-	<word first="arm" second="рука"/>
-	<word first="bottom" second="попа"/>
-	<word first="knees" second="колени"/>
-	<word first="toes" second="пальцы ног"/>
-	<word first="foot" second="ступня"/>
-	<word first="feet" second="ступни"/>
-	<word first="pointed" second="острый"/>
-	<word first="muscular" second="мускулистый"/>
-	<word first="beard" second="борода"/>
-	<word first="moustache" second="усы"/>
-	<word first="freckles" second="веснушки"/>
-	<word first="scar" second="шрам"/>
-	<word first="tattoo" second="татуировка"/>
-	<word first="wavy" second="волнистые"/>
+	<word first="head" second="РіРѕР»РѕРІР°"/>
+	<word first="ears" second="СѓС€Рё"/>
+	<word first="mouth" second="СЂРѕС‚"/>
+	<word first="eyebrows" second="Р±СЂРѕРІРё"/>
+	<word first="chin" second="РїРѕРґР±РѕСЂРѕРґРѕРє"/>
+	<word first="shoulders" second="РїР»РµС‡Рё"/>
+	<word first="breasts" transcription="brest" second="РіСЂСѓРґСЊ Р¶РµРЅСЃРєР°СЏ"/>
+	<word first="hand" second="РєРёСЃС‚СЊ"/>
+	<word first="tummy" second="Р¶РёРІРѕС‚"/>
+	<word first="legs" second="РЅРѕРіРё"/>
+	<word first="nose" second="РЅРѕСЃ"/>
+	<word first="lips" second="РіСѓР±С‹"/>
+	<word first="cheek" second="С‰РµРєР°"/>
+	<word first="tooth" second="Р·СѓР±"/>
+	<word first="teeth" second="Р·СѓР±С‹"/>
+	<word first="neck" second="С€РµСЏ"/>
+	<word first="back" second="СЃРїРёРЅР°"/>
+	<word first="chest" second="РіСЂСѓРґСЊ РјСѓР¶СЃРєР°СЏ"/>
+	<word first="arm" second="СЂСѓРєР°"/>
+	<word first="fingers" second="РїР°Р»СЊС†С‹ СЂСѓРє"/>
+	<word first="arm" second="СЂСѓРєР°"/>
+	<word first="bottom" second="РїРѕРїР°"/>
+	<word first="knees" second="РєРѕР»РµРЅРё"/>
+	<word first="toes" second="РїР°Р»СЊС†С‹ РЅРѕРі"/>
+	<word first="foot" second="СЃС‚СѓРїРЅСЏ"/>
+	<word first="feet" second="СЃС‚СѓРїРЅРё"/>
+	<word first="pointed" second="РѕСЃС‚СЂС‹Р№"/>
+	<word first="muscular" second="РјСѓСЃРєСѓР»РёСЃС‚С‹Р№"/>
+	<word first="beard" second="Р±РѕСЂРѕРґР°"/>
+	<word first="moustache" second="СѓСЃС‹"/>
+	<word first="freckles" second="РІРµСЃРЅСѓС€РєРё"/>
+	<word first="scar" second="С€СЂР°Рј"/>
+	<word first="tattoo" second="С‚Р°С‚СѓРёСЂРѕРІРєР°"/>
+	<word first="wavy" second="РІРѕР»РЅРёСЃС‚С‹Рµ"/>
 </Words>

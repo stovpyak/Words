@@ -15,6 +15,7 @@ namespace Words.Model.IO
             result.AddRange(xml.ReadFromFile("lesson-3. character.xml"));
             result.AddRange(xml.ReadFromFile("lesson-3. jobs.xml"));
             result.AddRange(xml.ReadFromFile("lesson-4.xml"));
+            result.AddRange(xml.ReadFromFile("numerics.xml"));
             result.AddRange(xml.ReadFromFile("other.xml"));
             result.AddRange(xml.ReadFromFile("present-simple-markers.xml"));
             result.AddRange(xml.ReadFromFile("pronouns.xml"));

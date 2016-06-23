@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="old" second="старый"/>
-	<word first="young" second="молодой"/>
-	<word first="kind" second="добрый"/>
-	<word first="unkind" second="злой"/>
-	<word first="angry" second="сердитый"/>
-	<word first="sad" second="грустный"/>
-	<word first="pessimistic" second="пессимистичный"/>
-	<word first="optimistic" second="оптимистичный"/>
-	<word first="hungry" second="голодный"/>
-	<word first="full" second="сытый"/>
-	<word first="tired" second="уставший"/>
-	<word first="energetic" second="энергичный"/>
-	<word first="lazy" second="ленивый"/>
-	<word first="hard-working" second="трудолюбивый"/>
-	<word first="happy" second="счастливый"/>
-	<word first="unhappy" second="несчастный"/>
-	<word first="clever" second="умный"/>
-	<word first="silly" second="глупый"/>
-	<word first="hair" second="волосы"/>
-	<word first="straight" second="прямые"/>
-	<word first="wavy" second="волнистые"/>
+	<word first="old" second="СЃС‚Р°СЂС‹Р№"/>
+	<word first="young" second="РјРѕР»РѕРґРѕР№"/>
+	<word first="kind" second="РґРѕР±СЂС‹Р№"/>
+	<word first="unkind" second="Р·Р»РѕР№"/>
+	<word first="angry" second="СЃРµСЂРґРёС‚С‹Р№"/>
+	<word first="sad" second="РіСЂСѓСЃС‚РЅС‹Р№"/>
+	<word first="pessimistic" second="РїРµСЃСЃРёРјРёСЃС‚РёС‡РЅС‹Р№"/>
+	<word first="optimistic" second="РѕРїС‚РёРјРёСЃС‚РёС‡РЅС‹Р№"/>
+	<word first="hungry" second="РіРѕР»РѕРґРЅС‹Р№"/>
+	<word first="full" second="СЃС‹С‚С‹Р№"/>
+	<word first="tired" second="СѓСЃС‚Р°РІС€РёР№"/>
+	<word first="energetic" second="СЌРЅРµСЂРіРёС‡РЅС‹Р№"/>
+	<word first="lazy" second="Р»РµРЅРёРІС‹Р№"/>
+	<word first="hard-working" second="С‚СЂСѓРґРѕР»СЋР±РёРІС‹Р№"/>
+	<word first="happy" second="СЃС‡Р°СЃС‚Р»РёРІС‹Р№"/>
+	<word first="unhappy" second="РЅРµСЃС‡Р°СЃС‚РЅС‹Р№"/>
+	<word first="clever" second="СѓРјРЅС‹Р№"/>
+	<word first="silly" second="РіР»СѓРїС‹Р№"/>
+	<word first="hair" second="РІРѕР»РѕСЃС‹"/>
+	<word first="straight" second="РїСЂСЏРјС‹Рµ"/>
+	<word first="wavy" second="РІРѕР»РЅРёСЃС‚С‹Рµ"/>
 </Words>

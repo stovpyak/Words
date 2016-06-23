@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="beautiful" second="красивая"/>
-	<word first="handsome" second="красивый"/>
-	<word first="ugly" second="ужасный"/>
-	<word first="plain" second="страшненький"/>
-	<word first="tall" second="высокий"/>
-	<word first="slim" second="стройный"/>
-	<word first="short" second="низкий"/>
-	<word first="fat" second="жирный"/>
-	<word first="skinny" second="тощий"/>
-	<word first="well-built" second="хорошо сложенный"/>
-	<word first="overweight" second="полный"/>
-	<word first="attractive" second="привлекательный"/>
-	<word first="unattractive" second="непривлекательный"/>
-	<word first="good-looking" second="симпатичный"/>
-	<word first="bald" second="лысый"/>
-	<word first="very well" second="очень хорошо"/>
-	<word first="thanks" second="спасибо"/>
+	<word first="beautiful" second="РєСЂР°СЃРёРІР°СЏ"/>
+	<word first="handsome" second="РєСЂР°СЃРёРІС‹Р№"/>
+	<word first="ugly" second="СѓР¶Р°СЃРЅС‹Р№"/>
+	<word first="plain" second="СЃС‚СЂР°С€РЅРµРЅСЊРєРёР№"/>
+	<word first="tall" second="РІС‹СЃРѕРєРёР№"/>
+	<word first="slim" second="СЃС‚СЂРѕР№РЅС‹Р№"/>
+	<word first="short" second="РЅРёР·РєРёР№"/>
+	<word first="fat" second="Р¶РёСЂРЅС‹Р№"/>
+	<word first="skinny" second="С‚РѕС‰РёР№"/>
+	<word first="well-built" second="С…РѕСЂРѕС€Рѕ СЃР»РѕР¶РµРЅРЅС‹Р№"/>
+	<word first="overweight" second="РїРѕР»РЅС‹Р№"/>
+	<word first="attractive" second="РїСЂРёРІР»РµРєР°С‚РµР»СЊРЅС‹Р№"/>
+	<word first="unattractive" second="РЅРµРїСЂРёРІР»РµРєР°С‚РµР»СЊРЅС‹Р№"/>
+	<word first="good-looking" second="СЃРёРјРїР°С‚РёС‡РЅС‹Р№"/>
+	<word first="bald" second="Р»С‹СЃС‹Р№"/>
+	<word first="very well" second="РѕС‡РµРЅСЊ С…РѕСЂРѕС€Рѕ"/>
+	<word first="thanks" second="СЃРїР°СЃРёР±Рѕ"/>
 </Words>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Words>
+	<word first="one" transcription="wʌn" second="один"/>
+	<word first="two" transcription="tuː" second="два"/>
+	<word first="three" transcription="θriː" second="три"/>	
+	<word first="four" transcription="fɔː" second="четыре"/>	
+	<word first="five" transcription="faɪv" second="пять"/>	
+	<word first="six" transcription="sɪks" second="шесть"/>	
+	<word first="seven" transcription="'sev(ə)n" second="семь"/>	
+	<word first="eight" transcription="eɪt" second="восемь"/>	
+	<word first="nine" transcription="naɪn" second="девять"/>	
+	<word first="ten" transcription="ten" second="десять"/>	
+	<word first="eleven" transcription="ɪ'lev(ə)n" second="одинадцать"/>	
+	<word first="twelve" transcription="twelv" second="двенадцать"/>	
+	<word first="thirteen" transcription="θɜː'tiːn" second="тринадцать"/>		
+	<word first="fourteen" transcription="ˌfɔː'tiːn" second="четырнадцать"/>		
+	<word first="fifteen" transcription="ˌfɪf'tiːn" second="пятнадцать"/>		
+	<word first="sixteen" transcription="ˌsɪk'stiːn" second="шестнадцать"/>		
+	<word first="seventeen" transcription="ˌsev(ə)n'tiːn" second="семнадцать"/>		
+	<word first="eighteen" transcription="ˌeɪ'tiːn" second="восемнадцать"/>		
+	<word first="nineteen" transcription="ˌnaɪn'tiːn" second="девятнадцать"/>		
+	<word first="twenty" transcription="'twentɪ" second="двадцать"/>		
+	<word first="thirty" transcription="'θɜːtɪ" second="тридцать"/>		
+	<word first="forty" transcription="'fɔːtɪ" second="сорок"/>		
+	<word first="fifty" transcription="'fɪftɪ" second="пятьдесят"/>		
+	<word first="sixty" transcription="'sɪkstɪ" second="шестьдесят"/>			
+	<word first="seventy" transcription="'sev(ə)ntɪ" second="семьдесят"/>			
+	<word first="eighty" transcription="'eɪtɪ" second="восемьдесят"/>			
+	<word first="ninety" transcription="'naɪntɪ" second="девяносто"/>			
+	<word first="hundred" transcription="'hʌndrəd" second="сто"/>			
+	
+</Words>
