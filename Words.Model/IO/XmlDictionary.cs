@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml;
@@ -23,10 +24,18 @@ namespace Words.Model.IO
 
         public IEnumerable<WordsPair> ReadFromFile(string fileName)
         {
-            using (var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read))
+            try
             {
-                return ReadPairs(fileStream);
+                using (var fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read))
+                {
+                    return ReadPairs(fileStream);
+                }
             }
+            catch (Exception)
+            {
+                throw new Exception($"Ошибка при чтении файла {fileName}");
+            }
+
         }
 
         private IEnumerable<WordsPair> ReadPairs(Stream stream)

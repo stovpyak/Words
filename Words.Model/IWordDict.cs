@@ -3,7 +3,5 @@
     public interface IWordDict
     {
         WordsPair GetPair();
-
-        
     }
 }

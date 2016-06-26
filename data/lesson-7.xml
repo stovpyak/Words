@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Words>
+	<word first="how often" second="как часто"/>
+	<word first="what time" second="в какое время"/>
+	<word first="smile" second="улыбаться"/>
+	<word first="cry" second="плакать"/>
+	<word first="argue" transcription="'ɑːgjuː" second="спорить"/>
+	<word first="do some exercise" second="делать зарядку"/>
+	<word first="tell a lie" second="врать"/>
+	<word first="read a book" second="читать книгу"/>
+	<word first="every day" second="каждый день"/>
+	<word first="stay up all night" second="не спать всю ночь"/>
+	<word first="drive too fast" second="водить слишком быстро"/>
+	<word first="drink champagne" transcription="ʃæm'peɪn" second="пить шампанское"/>
+	
+	<word first="go to the movies" second="ходить в кино"/>	
+	<word first="spend too much money" second="тратить слишком много денег"/>	
+	<word first="clean the house" second="убирать в доме"/>	
+	<word first="not very often" second="не слишком часто"/>	
+	<word first="on Monday mornings" second="по утрам в понедельник"/>	
+
+	<word first="like" transcription="heɪt" second="нравиться"/>	
+	<word first="hate" second="ненавидеть"/>	
+	<word first="love" second="любить"/>	
+	<word first="stop" second="прекращать"/>	
+	<word first="enjoy" second="получать удовольствие"/>	
+	<word first="give up" second="бросать что-то делать"/>	
+	<word first="go on" second="продолжать"/>	
+	<word first="practise" second="практиковать"/>	
+</Words>

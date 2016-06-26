@@ -1,24 +1,23 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2014 sp1 (x64) (http://www.altova.com) by work (Irkutskzheldorproekt, branch of Roszheldorproekt, JSC) -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="bookkeeper" second="бухгалтер"/>
-	<word first="writer" second="писатель"/>
-	<word first="teacher" second="учитель"/>
-	<word first="photographer" second="фотограф"/>
-	<word first="dancer" second="танцор"/>
-	<word first="dentist" second="дантист"/>
-	<word first="policeman" second="полицейский"/>
-	<word first="lawyer" second="эрист"/>
-	<word first="journalist" second="журналист"/>
-	<word first="doctor" second="доктор"/>
-	<word first="economist" second="экономист"/>
-	<word first="driver" second="водитель"/>
-	<word first="farmer" second="фермер"/>
-	<word first="cook" second="повар"/>
-	<word first="hairdresser" second="парикмахер"/>
-	<word first="singer" second="певец"/>
-	<word first="postman" second="почтальон"/>
-	<word first="engineer" second="инженер"/>
-	<word first="salesperson" second="продавец"/>
-	<word first="fireman" second="пожарный"/>
+	<word first="bookkeeper" second="Р±СѓС…РіР°Р»С‚РµСЂ"/>
+	<word first="writer" second="РїРёСЃР°С‚РµР»СЊ"/>
+	<word first="teacher" second="СѓС‡РёС‚РµР»СЊ"/>
+	<word first="photographer" second="С„РѕС‚РѕРіСЂР°С„"/>
+	<word first="dancer" second="С‚Р°РЅС†РѕСЂ"/>
+	<word first="dentist" second="РґР°РЅС‚РёСЃС‚"/>
+	<word first="policeman" second="РїРѕР»РёС†РµР№СЃРєРёР№"/>
+	<word first="lawyer" second="СЋСЂРёСЃС‚"/>
+	<word first="journalist" second="Р¶СѓСЂРЅР°Р»РёСЃС‚"/>
+	<word first="doctor" second="РґРѕРєС‚РѕСЂ"/>
+	<word first="economist" second="СЌРєРѕРЅРѕРјРёСЃС‚"/>
+	<word first="driver" second="РІРѕРґРёС‚РµР»СЊ"/>
+	<word first="farmer" second="С„РµСЂРјРµСЂ"/>
+	<word first="cook" second="РїРѕРІР°СЂ"/>
+	<word first="hairdresser" second="РїР°СЂРёРєРјР°С…РµСЂ"/>
+	<word first="singer" second="РїРµРІРµС†"/>
+	<word first="postman" second="РїРѕС‡С‚Р°Р»СЊРѕРЅ"/>
+	<word first="engineer" second="РёРЅР¶РµРЅРµСЂ"/>
+	<word first="salesperson" second="РїСЂРѕРґР°РІРµС†"/>
+	<word first="fireman" second="РїРѕР¶Р°СЂРЅС‹Р№"/>
 </Words>
