@@ -5,7 +5,8 @@ namespace Words.Model
     public class Playing
     {
         private readonly IPlayStrategy _playStrategy;
-        
+        private WordsPair _currentWordsPair;
+
         public Playing(IPlayStrategy playStrategy)
         {
             _playStrategy = playStrategy;
@@ -16,13 +17,15 @@ namespace Words.Model
             IsExit = false;
             while (!IsExit)
             {
-                var pair = words.GetPair();
+                _currentWordsPair = words.GetPair();
 
                 bool isExit;
-                _playStrategy.PlayOnePair(pair, new IsExitEnums(), out isExit);
+                _playStrategy.PlayOnePair(_currentWordsPair, new IsExitEnums(), out isExit);
                 IsExit = isExit;
             }
         }
+
+        public WordsPair CurrentWordsPair => _currentWordsPair;
 
         public bool IsExit { get; private set; }
     }

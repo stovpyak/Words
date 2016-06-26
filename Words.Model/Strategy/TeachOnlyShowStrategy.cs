@@ -20,6 +20,7 @@ namespace Words.Model.Strategy
             isExit = false;
 
             _speaker.Speak($"{pair.First} = {pair.Second}");
+            _speaker.Speak($"{pair.Second} = {pair.First}");
             var input = _listener.Input();
             if (checkIsExit.IsExit(input))
             {

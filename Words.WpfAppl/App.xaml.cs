@@ -15,14 +15,7 @@ namespace Word.WpfAppl
     {
         private void App_OnStartup(object sender, StartupEventArgs e)
         {
-            var speaker = new SpeakerDummy();
-            var listener = new ListenerDummy();
-
-            IStrategyFactory strategyFactory = new StrategyFactory(speaker, listener);
-            var strategySelector = new StrategySelector();
-            var worldSource = new XmlWorldSource();
-
-            var appl = new Appl(strategyFactory, strategySelector, worldSource);
+            
 
             var view = new MainWindow
             {
@@ -34,8 +27,6 @@ namespace Word.WpfAppl
             view.DataContext = viewModel;
 
             view.Show();
-
-            //appl.Run();
         }
     }
 }

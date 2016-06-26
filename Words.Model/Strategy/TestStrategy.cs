@@ -58,6 +58,7 @@ namespace Words.Model.Strategy
                 else
                     _speaker.Speak("No!");
             }
+            _speaker.Speak("");
         }
     }
 }

@@ -19,10 +19,8 @@ namespace Words.Model.Strategy
         {
             isExit = false;
 
-            _speaker.Speak($"{pair.First} = {pair.Second}");
-            _speaker.Speak("");
-
-            _speaker.Speak("Введите первое слово:");
+            _speaker.Speak($"{pair.Second} = {pair.First}");
+            _speaker.Speak("Введите слово:");
             var first = _listener.Input();
             if (checkIsExit.IsExit(first))
             {
@@ -33,8 +31,8 @@ namespace Words.Model.Strategy
             if (first == pair.First.Caption)
                 _speaker.Speak("Ok!");
             else
-                _speaker.Speak($"No. Правильно {pair.First}");
-
+                _speaker.Speak($"No. Правильно будет \"{pair.First}\"");
+            _speaker.Speak("");
             //_speaker.Speak("Введите второе слово:");
             //var second = _listener.Input();
             //if (checkIsExit.IsExit(second))

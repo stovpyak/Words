@@ -58,7 +58,9 @@
     <Compile Include="ListenerDummy.cs" />
     <Compile Include="SpeakerDummy.cs" />
     <Compile Include="StrategySelector.cs" />
+    <Compile Include="ViewModel\ListenerViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\WordPairViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>

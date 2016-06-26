@@ -7,6 +7,7 @@ namespace Words.Model
         private readonly IStrategyFactory _strategyFactory;
         private readonly IStrategySelector _strategySelector;
         private readonly IWorldSource _worldSource;
+        private Playing _playing;
 
         public Appl(IStrategyFactory strategyFactory, IStrategySelector strategySelector,
             IWorldSource worldSource)
@@ -20,12 +21,16 @@ namespace Words.Model
         {
             var strategies = _strategyFactory.BuildAll();
             var strategy = _strategySelector.Select(strategies);
-            var playing = new Playing(strategy);
+            _playing = new Playing(strategy);
 
             var wordsDict = new WordsDict();
             wordsDict.AddWords(_worldSource.GetWords());
 
-            playing.Play(wordsDict);
+            _playing.Play(wordsDict);
         }
+
+        public IWorldSource WorldSource => _worldSource;
+
+        private Playing Playing => _playing;
     }
 }

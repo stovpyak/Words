@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBlock>
+                
+            </TextBlock>
+                
+                <ListBox x:Name="WordPair"
+                 Grid.Column="0" 
+                 ItemsSource="{Binding Path=WordPairs, Mode=OneWay}" 
+                 DisplayMemberPath="Caption">
+            </ListBox>
+        </StackPanel>
         
+        <StackPanel Grid.Column="1">
+            
+        </StackPanel>
     </Grid>
 </Window>
