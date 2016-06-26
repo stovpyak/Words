@@ -19,8 +19,8 @@
 	<word first="not very often" second="не слишком часто"/>	
 	<word first="on Monday mornings" second="по утрам в понедельник"/>	
 
-	<word first="like" transcription="heɪt" second="нравиться"/>	
-	<word first="hate" second="ненавидеть"/>	
+	<word first="like" second="нравиться"/>	
+	<word first="hate" transcription="heɪt" second="ненавидеть"/>	
 	<word first="love" second="любить"/>	
 	<word first="stop" second="прекращать"/>	
 	<word first="enjoy" second="получать удовольствие"/>	
