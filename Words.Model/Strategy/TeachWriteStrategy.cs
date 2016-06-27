@@ -15,8 +15,9 @@ namespace Words.Model.Strategy
 
         public string Name => "Обучение (смотрим и пишем)";
 
-        public void PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
+        public bool PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
         {
+            var result = true;
             isExit = false;
 
             _speaker.Speak($"{pair.Second} = {pair.First}");
@@ -25,14 +26,22 @@ namespace Words.Model.Strategy
             if (checkIsExit.IsExit(first))
             {
                 isExit = true;
-                return;
+                return result;
             }
 
             if (first == pair.First.Caption)
+            {
                 _speaker.Speak("Ok!");
+                result = true;
+            }
             else
+            {
                 _speaker.Speak($"No. Правильно будет \"{pair.First}\"");
+                result = false;
+            }
             _speaker.Speak("");
+            return result;
+
             //_speaker.Speak("Введите второе слово:");
             //var second = _listener.Input();
             //if (checkIsExit.IsExit(second))

@@ -15,7 +15,7 @@ namespace Words.Model.Strategy
 
         public string Name => "Обучение (только смотрим)";
 
-        public void PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
+        public bool PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
         {
             isExit = false;
 
@@ -25,7 +25,9 @@ namespace Words.Model.Strategy
             if (checkIsExit.IsExit(input))
             {
                 isExit = true;
+                return true;
             }
+            return true;
         }
     }
 }

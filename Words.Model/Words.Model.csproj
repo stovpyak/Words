@@ -50,6 +50,7 @@
     <Compile Include="IWordDict.cs" />
     <Compile Include="IWorldSource.cs" />
     <Compile Include="Playing.cs" />
+    <Compile Include="PlayResult.cs" />
     <Compile Include="StrategyContracts\IPlayStrategy.cs" />
     <Compile Include="StrategyContracts\IStrategyFactory.cs" />
     <Compile Include="StrategyContracts\IStrategySelector.cs" />
