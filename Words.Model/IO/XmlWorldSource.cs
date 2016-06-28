@@ -10,11 +10,11 @@ namespace Words.Model.IO
 
             var xml = new XmlDictionary();
             // todo: какие словари использовать пока зашито в код
-            result.AddRange(xml.ReadFromFile("lesson-1.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-2.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-3. character.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-3. jobs.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-4.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-1.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-2.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-3. character.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-3. jobs.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-4.xml"));
 
             result.AddRange(xml.ReadFromFile("lesson-5.xml"));
             result.AddRange(xml.ReadFromFile("lesson-5-PS-markers.xml"));

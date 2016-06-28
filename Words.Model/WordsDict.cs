@@ -10,8 +10,8 @@ namespace Words.Model
 
         public WordsDict()
         {
-            //SetGiveWordsStrategy(new GiveWordsStrategyRnd());
-            SetGiveWordsStrategy(new GiveWordsStrategyInOrder());
+            SetGiveWordsStrategy(new GiveWordsStrategyRnd());
+            //SetGiveWordsStrategy(new GiveWordsStrategyInOrder());
         }
 
         public void AddSampleWords()

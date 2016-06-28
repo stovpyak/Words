@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Words.Model;
 using Words.Model.IO;
 using Words.Model.Strategy;
@@ -26,21 +27,26 @@ namespace Words.ConsoleAppl
             var result = appl.Run();
 
             Console.WriteLine("Результат:");
-            Console.WriteLine($"Всего слов {result.AllCount()}");
-            Console.WriteLine($"Правильно {result.Good.Count}");
-            Console.WriteLine($"Не правильно {result.Bad.Count}");
-            Console.WriteLine("");
-            Console.ReadLine();
+            Console.WriteLine($"Всего слов: {result.AllResults.Count}");
 
-            if (result.Bad.Count > 0)
-            {
-                Console.WriteLine("Неправильные ответы:");
-                foreach (var bad in result.Bad)
-                {
-                    Console.WriteLine(bad.First);
-                }
-                Console.ReadLine();
-            }
+            Console.WriteLine($"Без ошибок: {result.ByBadCount(0, 0).Count()}");
+            Console.WriteLine($"С одной ошибкой: {result.ByBadCount(1, 1).Count()}");
+            foreach (var word in result.ByBadCount(1, 1))
+                Console.WriteLine(word.First);
+
+            Console.WriteLine($"С двумя ошибками: {result.ByBadCount(2, 2).Count()}");
+            foreach (var word in result.ByBadCount(2, 2))
+                Console.WriteLine(word.First);
+
+            Console.WriteLine($"С тремя ошибками: {result.ByBadCount(3, 3).Count()}");
+            foreach (var word in result.ByBadCount(3, 3))
+                Console.WriteLine(word.First);
+
+            Console.WriteLine($"Более трех ошибок: {result.ByBadCount(4, null).Count()}");
+            foreach (var word in result.ByBadCount(4, null))
+                Console.WriteLine(word.First);
+
+            Console.ReadLine();
         }
     }
 }

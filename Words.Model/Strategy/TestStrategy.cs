@@ -22,7 +22,7 @@ namespace Words.Model.Strategy
 
         public bool PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
         {
-            var result = true;
+            var result = false;
             isExit = false;
 
             int currentCount = 0;
@@ -38,7 +38,8 @@ namespace Words.Model.Strategy
                 if (_translateDirection.GetTranslate(pair).Caption == input)
                 {
                     _speaker.Speak("Oк!");
-                    result = true;
+                    if (currentCount == 0)
+                        result = true;
                     break;
                 }
                 else

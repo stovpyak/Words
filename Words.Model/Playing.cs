@@ -15,8 +15,7 @@ namespace Words.Model
 
         public PlayResult Play(IWordDict words)
         {
-            var good = new HashSet<WordsPair>();
-            var bad = new HashSet<WordsPair>();
+            var results = new PlayResult();
 
             IsExit = false;
             while (!IsExit)
@@ -27,14 +26,14 @@ namespace Words.Model
                 var pairResult = _playStrategy.PlayOnePair(_currentWordsPair, new IsExitEnums(), out isExit);
 
                 if (pairResult)
-                    good.Add(_currentWordsPair);
+                    results.AddCorrect(_currentWordsPair);
                 else
-                    bad.Add(_currentWordsPair);
+                    results.AddBad(_currentWordsPair);
 
                 IsExit = isExit;
             }
 
-            return new PlayResult(good, bad);
+            return results;
         }
 
         public WordsPair CurrentWordsPair => _currentWordsPair;

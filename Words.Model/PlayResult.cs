@@ -1,31 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Words.Model
 {
     public class PlayResult
     {
-        public PlayResult(HashSet<WordsPair> good, HashSet<WordsPair> bad)
+        private readonly Dictionary<WordsPair, WordPairResult> _wordToResultDict = new Dictionary<WordsPair, WordPairResult>();
+
+        public void AddCorrect(WordsPair pair)
         {
-            Good = good;
-            Bad = bad;
+            var result = GetOrMakeResult(pair);
+            result.IncCorrect();
         }
 
-        public HashSet<WordsPair> Good { get; private set; }
-
-        public HashSet<WordsPair> Bad { get; private set; }
-
-        public int AllCount()
+        public void AddBad(WordsPair pair)
         {
-            return Good.Count + Bad.Count;
+            var result = GetOrMakeResult(pair);
+            result.IncBad();
         }
 
-        public double GoodPercent()
+        private WordPairResult GetOrMakeResult(WordsPair pair)
         {
-            return Good.Count / AllCount();
+            WordPairResult result;
+            if (_wordToResultDict.ContainsKey(pair))
+            {
+                result = _wordToResultDict[pair];
+            }
+            else
+            {
+                result = new WordPairResult();
+                _wordToResultDict.Add(pair, result);
+            }
+            return result;
         }
+
+        public Dictionary<WordsPair, WordPairResult> AllResults => _wordToResultDict;
+
+        public IEnumerable<WordsPair> ByBadCount(int badMinCount, int? badMaxCount)
+        {
+            var result = new List<WordsPair>();
+
+            var keys = _wordToResultDict.Keys;
+            foreach (var key in keys)
+            {
+                var wordResult = _wordToResultDict[key];
+                if ((wordResult.Bad >= badMinCount) && 
+                        ((badMaxCount == null) || ((badMaxCount != null) && (wordResult.Bad <= badMaxCount))))
+                    result.Add(key);
+            }
+            return result;
+        }
+    }
+
+    public class WordPairResult
+    {
+        public void IncCorrect()
+        {
+            Correct = Correct + 1;
+        }
+
+        public void IncBad()
+        {
+            Bad = Bad + 1;
+        }
+
+        public int Correct { get; private set; }
+        public int Bad { get; private set; }
     }
 }
