@@ -4,6 +4,6 @@
     {
         string Name { get; }
     
-        void PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit);
+        bool PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit);
     }
 }

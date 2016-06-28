@@ -1,4 +1,5 @@
-﻿using Words.Model.StrategyContracts;
+﻿using System.Collections.Generic;
+using Words.Model.StrategyContracts;
 
 namespace Words.Model
 {
@@ -12,17 +13,28 @@ namespace Words.Model
             _playStrategy = playStrategy;
         }
 
-        public void Play(IWordDict words)
+        public PlayResult Play(IWordDict words)
         {
+            var good = new HashSet<WordsPair>();
+            var bad = new HashSet<WordsPair>();
+
             IsExit = false;
             while (!IsExit)
             {
                 _currentWordsPair = words.GetPair();
 
                 bool isExit;
-                _playStrategy.PlayOnePair(_currentWordsPair, new IsExitEnums(), out isExit);
+                var pairResult = _playStrategy.PlayOnePair(_currentWordsPair, new IsExitEnums(), out isExit);
+
+                if (pairResult)
+                    good.Add(_currentWordsPair);
+                else
+                    bad.Add(_currentWordsPair);
+
                 IsExit = isExit;
             }
+
+            return new PlayResult(good, bad);
         }
 
         public WordsPair CurrentWordsPair => _currentWordsPair;

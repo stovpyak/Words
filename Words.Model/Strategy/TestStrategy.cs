@@ -20,8 +20,9 @@ namespace Words.Model.Strategy
 
         public string Name => $"Тест: {_translateDirection.Name}";
 
-        public void PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
+        public bool PlayOnePair(WordsPair pair, ICheckIsExit checkIsExit, out bool isExit)
         {
+            var result = true;
             isExit = false;
 
             int currentCount = 0;
@@ -32,14 +33,19 @@ namespace Words.Model.Strategy
                 if (checkIsExit.IsExit(input))
                 {
                     isExit = true;
-                    break;
+                    return true;
                 }
                 if (_translateDirection.GetTranslate(pair).Caption == input)
                 {
                     _speaker.Speak("Oк!");
+                    result = true;
                     break;
                 }
-                _speaker.Speak("No!");
+                else
+                {
+                    _speaker.Speak("No!");
+                    result = false;
+                }
                 currentCount = currentCount + 1;
             }
 
@@ -51,7 +57,7 @@ namespace Words.Model.Strategy
                 if (checkIsExit.IsExit(input))
                 {
                     isExit = true;
-                    return;
+                    return false;
                 }
                 if (_translateDirection.GetTranslate(pair).Caption == input)
                     _speaker.Speak("Oк!");
@@ -59,6 +65,7 @@ namespace Words.Model.Strategy
                     _speaker.Speak("No!");
             }
             _speaker.Speak("");
+            return result;
         }
     }
 }

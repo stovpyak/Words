@@ -23,7 +23,24 @@ namespace Words.ConsoleAppl
             var worldSource = new XmlWorldSource();
 
             var appl = new Appl(strategyFactory, strategySelector, worldSource);
-            appl.Run();
+            var result = appl.Run();
+
+            Console.WriteLine("Результат:");
+            Console.WriteLine($"Всего слов {result.AllCount()}");
+            Console.WriteLine($"Правильно {result.Good.Count}");
+            Console.WriteLine($"Не правильно {result.Bad.Count}");
+            Console.WriteLine("");
+            Console.ReadLine();
+
+            if (result.Bad.Count > 0)
+            {
+                Console.WriteLine("Неправильные ответы:");
+                foreach (var bad in result.Bad)
+                {
+                    Console.WriteLine(bad.First);
+                }
+                Console.ReadLine();
+            }
         }
     }
 }

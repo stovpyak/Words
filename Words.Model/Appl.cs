@@ -17,7 +17,7 @@ namespace Words.Model
             _worldSource = worldSource;
         }
 
-        public void Run()
+        public PlayResult Run()
         {
             var strategies = _strategyFactory.BuildAll();
             var strategy = _strategySelector.Select(strategies);
@@ -26,7 +26,7 @@ namespace Words.Model
             var wordsDict = new WordsDict();
             wordsDict.AddWords(_worldSource.GetWords());
 
-            _playing.Play(wordsDict);
+            return _playing.Play(wordsDict);
         }
 
         public IWorldSource WorldSource => _worldSource;
