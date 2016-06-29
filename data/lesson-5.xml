@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="Russian" second="руский"/>
+	<word first="Russian" second="русский"/>
 	<word first="wife" second="жена"/>
 	<word first="British" second="британка"/>
 	<word first="husband" second="муж"/>
-	<word first="what colour" second="Какго цвета?"/>
+	<word first="what colour" second="какого цвета?"/>
 	<word first="favorite" second="любимый"/>
 	<word first="late" second="опоздавший"/>
 </Words>
