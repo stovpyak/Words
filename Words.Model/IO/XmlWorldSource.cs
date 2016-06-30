@@ -17,14 +17,15 @@ namespace Words.Model.IO
             //result.AddRange(xml.ReadFromFile("lesson-4.xml"));
             //result.AddRange(xml.ReadFromFile("lesson-5.xml"));
 
-            result.AddRange(xml.ReadFromFile("lesson-5-PS-markers.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-6.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-5-PS-markers.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-6.xml"));
             //result.AddRange(xml.ReadFromFile("lesson-6-numerics.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-7.xml"));
-            result.AddRange(xml.ReadFromFile("lesson-8.xml"));
-            result.AddRange(xml.ReadFromFile("other.xml"));
-            result.AddRange(xml.ReadFromFile("pronouns.xml"));
-            result.AddRange(xml.ReadFromFile("verb.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-7.xml"));
+            //result.AddRange(xml.ReadFromFile("lesson-8.xml"));
+            result.AddRange(xml.ReadFromFile("lesson-9.xml"));
+            //result.AddRange(xml.ReadFromFile("other.xml"));
+            //result.AddRange(xml.ReadFromFile("pronouns.xml"));
+            //result.AddRange(xml.ReadFromFile("verb.xml"));
 
             return result;
         }
