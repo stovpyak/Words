@@ -1,144 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Words>
-	<word first="read some magazines" second="читать журналы"/>
-	<word first="wash something" second="стирать, мыть"/>
-	<word first="you look great" second="хорошо выглядишь"/>
-	<word first="stay in" second="оставаться дома"/>
-	<word first="the sun shines" second="солнце светит"/>
-	<word first="sweep the floor" second="подметать пол"/>
-	<word first="that`s why" second="вот почему"/>
-	<word first="have breakfast" second="завтракать"/>
-	<word first="lie in bad" second="лежать в кровати"/>
-	<word first="Later!" second="Пока!"/>
-	<word first="lay the table" second="накрывать на стол"/>
-	<word first="I`d like to tell you" second="Я быхотел рассказать тебе"/>
-	<word first="spend time on the Internet" second="сидеть в интернете"/>
-	<word first="Piss off! Get lost!" second="Иди куда подальше!"/>
-	<word first="both" second="оба"/>
-	<word first="wear" second="носить"/>
-	<word first="throw out the trash" second="выбрасывать мусор"/>
-	<word first="by bus" second="на автобусе"/>
+	<word first="in the morning" second="утром"/>
 	<word first="wake up" second="просыпаться"/>
-	<word first="about" second="около"/>
-	<word first="go upstairs" second="подниматься по лестнице"/>
-	<word first="lie on the grass" second="лежать на траве"/>
-	<word first="stand on a chair" second="стоять на стуле"/>
-	<word first="different" second="разный"/>
-	<word first="It`s a piece of cake!" second="Проще простого!"/>
-	<word first="go out" second="выходить в свет"/>
-	<word first="something strange" second="что-то странное"/>
-	<word first="have a shave" second="бриться"/>
-	<word first="check my e-mail" second="проверять почту"/>
-	<word first="buddy" second="дружище"/>
-	<word first="find out" second="узнавать"/>
-	<word first="get dressed" second="одевться"/>
-	<word first="fall asleep" second="засыпать"/>
-	<word first="have a snack" second="перекусить"/>
-	<word first="it seems to me" second="мне кажется"/>
-	<word first="Move it!" second="Шевелись!"/>
-	<word first="do some cooking" second="готовить"/>
-	<word first="by the way" second="кстати"/>
-	<word first="something" second="что-то"/>
-	<word first="play cards" second="играть в карты"/>
-	<word first="pick flowers" second="рвать цветы"/>
-	<word first="go downstairs" second="спускаться по лестнице"/>
-	<word first="don`t pull my leg" second="не вешай мне лапшу на уши"/>
-	<word first="in the evening" second="вечером"/>
-	<word first="neighbor" second="сосед"/>
-	<word first="You pissed me off!" second="Заколебал!"/>
-	<word first="prefer" second="предпочитать"/>
-	<word first="throw" second="кидать"/>
-	<word first="do some gardening" second="работать в саду"/>
-	<word first="have a break" second="сделать перерыв"/>
-	<word first="watch TV" second="смотреть телевизор"/>
-	<word first="clean my teeth" second="чистить зубы"/>
-	<word first="midnight" second="полночь"/>
-	<word first="on foot" second="пешком"/>
-	<word first="I don`t care" second="мне всё равно"/>
-	<word first="I`m bored" second="мне скучно"/>
-	<word first="make my bed" second="заправлять кровать"/>
-	<word first="catch a bus" second="сесть в автобус"/>
-	<word first="Chill out!" second="расслабься"/>
-	<word first="leave home" second="уходить из дома"/>
-	<word first="You are nuts!" second="Ты сумасшедший!"/>
-	<word first="everybody" second="все"/>
-	<word first="funny" second="смешной"/>
-	<word first="have a wash" second="умываться"/>
-	<word first="get up" second="вставать"/>
-	<word first="Guess what?" second="Угадай, что?"/>
-	<word first="Wats`s up?" second="Что случилось?"/>
-	<word first="clean off the table" second="убрать со стола"/>
-	<word first="Damn!" second="Чёрт!"/>
-	<word first="turn off" second="выключить"/>
-	<word first="do some dusting" second="вытирать пыль"/>
-	<word first="have lunch" second="обедать"/>
-	<word first="go to beg early" second="рано ложиться спать"/>
-	<word first="go to beg late" second="поздно ложиться спать"/>
-	<word first="while" second="в то время как"/>
-	<word first="well..." second="ну..."/>
-	<word first="check my page on Facebook" second="проверять страницу в ФБ"/>
-	<word first="open the door" second="открывать дверь"/>
-	<word first="close the door" second="закрывать дверь"/>
-	<word first="alarm clock" second="будильник"/>
-	<word first="awesome" second="потрясающий"/>
-	<word first="feed pets" second="кормить животных"/>
-	<word first="make breakfast" second="готовить завтрак"/>
-	<word first="have a nap" second="вздремнуть"/>
-	<word first="ask a question" second="задать вопрос"/>
-	<word first="call somebody" second="звонить кому-нибудь"/>
-	<word first="go to bed" second="ложиться спать"/>
-	<word first="run" second="бежать"/>
-	<word first="slang" second="сленг"/>
-	<word first="go shopping" second="ходить по магазинам"/>
-	<word first="I have to" second="мне надо"/>
-	<word first="he has to" second="ему надо"/>
-	<word first="under" second="под"/>
-	<word first="wash up" second="мыть посуду"/>
-	<word first="I`m boring" second="я скучный"/>
-	<word first="go for a walk" second="идти на прогулку"/>
-	<word first="jerk" second="болван"/>
-	<word first="across" second="через"/>
-	<word first="have a ball" second="колбаситься"/>
-	<word first="housework" second="работа по дому"/>
-	<word first="it pisses me off" second="меня это раздражает"/>
-	<word first="have a piss" second="ходить в туалет"/>
-	<word first="thick" second="толстый"/>
-	<word first="dig" second="копать"/>
-	<word first="I don`t give a damn!" second="Мне всё равно"/>
-	<word first="talk with friends on the phone" second="болтать с друзьями по телефону"/>
-	<word first="ride a bicycle" second="ездить на велосипеде"/>
-	<word first="again" second="снова"/>
-	<word first="come home" second="приходить домой"/>
-	<word first="the problem is" second="поблема в том, что"/>
-	<word first="glasses" second="очки"/>
+	<word first="lie in bad" second="лежать в кровати"/>
+	<word first="get up" second="вставать"/>	
 	<word first="oversleep" second="проспать"/>
-	<word first="mend something" second="чинить"/>
-	<word first="turn over" second="переворачиваться"/>
-	<word first="chicken" second="трус"/>
+	<word first="make breakfast" second="готовить завтрак"/>
+	<word first="have breakfast" second="завтракать"/>
+	<word first="feed pets" second="кормить животных"/>
+	<word first="clean my teeth" second="чистить зубы"/>	
+	<word first="get dressed" second="одевться"/>
+	<word first="put on make-up" second="краситься"/>	
+	<word first="have a piss" second="ходить в туалет"/>
 	<word first="have a shower" second="принимать душ"/>
 	<word first="have a bath" second="принимать ванну"/>
-    <word first="in the afternoon" second="днем"/>
-	<word first="tidy up" second="прибираться"/>
-	<word first="put on make-up" second="краситься"/>
-	<word first="play volleyball" second="играть в волейбол"/>
-	<word first="dude" second="чувак"/>
-	<word first="at once" second="сразу"/>
-	<word first="belive" second="верить"/>
-	<word first="above" second="над"/>
-	<word first="watch the news" second="смотреть новости"/>
-	<word first="nobody" second="никто"/>
-	<word first="vacuum" second="пылесосить"/>
-	<word first="Give me five!" second="Дай пять!"/>
-	<word first="Hey!" second="Привет!"/>
-	<word first="answer a question" second="отвечать на вопрос"/>
-	<word first="get to work by car" second="добираться до работы на машине"/>
-	<word first="change" second="менять"/>
-	<word first="to iron something" second="гладить"/>
-	<word first="cool" second="круто"/>
-	<word first="in a hurry" second="в спешке"/>
+	<word first="have a wash" second="умываться"/>	
+	<word first="have a shave" second="бриться"/>	
+	<word first="leave home" second="уходить из дома"/>
+	<word first="get to work by car" second="добираться до работы на машине"/>	
+	<word first="on foot" second="пешком"/>	
+	<word first="by bus" second="на автобусе"/>	
+
+	<word first="in the afternoon" second="днем"/>
+	<word first="make my bed" second="заправлять кровать"/>	
+	<word first="have a nap" second="вздремнуть"/>	
+	<word first="have a snack" second="перекусить"/>
+	<word first="have a break" second="сделать перерыв"/>	
+	<word first="make lunch" second="готовить обед"/>	
+	<word first="have lunch" second="обедать"/>
+
+	<word first="in the evening" second="вечером"/>
+	<word first="watch TV" second="смотреть телевизор"/>
+	<word first="call somebody" second="звонить кому-нибудь"/>
+	<word first="talk with friends on the phone" second="болтать с друзьями по телефону"/>
+	<word first="stay in" second="оставаться дома"/>	
 	<word first="have a rest" second="отдыхать"/>
+	<word first="go out" second="выходить в свет"/>	
+	<word first="go for a walk" second="идти на прогулку"/>
+	<word first="spend time on the Internet" second="сидеть в интернете"/>	
+	<word first="have a ball" second="колбаситься"/>	
+	<word first="check my e-mail" second="проверять почту"/>
+	<word first="check my page on Facebook" second="проверять страницу в ФБ"/>
+	<word first="watch the news" second="смотреть новости"/>
+	<word first="read some magazines" second="читать журналы"/>
+	<word first="go to bed" second="ложиться спать"/>	
+	<word first="go to bed early" second="ложиться спать рано"/>		
+	<word first="go to bed late" second="ложиться спать поздно"/>		
+	<word first="fall asleep" second="засыпать"/>
+	<word first="come home" second="приходить домой"/>
+	
+	<word first="I have to" second="мне надо"/>
+	<word first="he has to" second="ему надо"/>
+	<word first="don`t pull my leg" second="не вешай мне лапшу на уши"/>
+	<word first="about" second="около"/>
+	<word first="thick" second="толстый"/>	
+	<word first="wear" second="носить"/>	
+	<word first="funny" second="смешной"/>
+	<word first="glasses" second="очки"/>
+	<word first="the problem is" second="поблема в том, что"/>
+	<word first="different" second="разный"/>
+	<word first="that`s why" second="вот почему"/>
+	<word first="awesome" second="потрясающий"/>
+	<word first="I`d like to tell you" second="Я быхотел рассказать тебе"/>
+	<word first="alarm clock" second="будильник"/>
+	<word first="again" second="снова"/>
+	<word first="turn off" second="выключить"/>
+	<word first="something strange" second="что-то странное"/>	
+	<word first="I`m bored" second="мне скучно"/>	
+	<word first="I`m boring" second="я скучный"/>	
+	<word first="turn over" second="переворачиваться"/>7	
+	<word first="throw" second="кидать"/>	
+	<word first="across" second="через"/>
+	<word first="go downstairs" second="спускаться по лестнице"/>
+	<word first="go upstairs" second="подниматься по лестнице"/>
+	<word first="while" second="в то время как"/>
+	<word first="in a hurry" second="в спешке"/>
+	<word first="catch a bus" second="сесть в автобус"/>
+	<word first="at once" second="сразу"/>
+	
+	<word first="slang" second="сленг"/>
+	<word first="chicken" second="трус"/>	
+	<word first="buddy" second="дружище"/>	
+	<word first="You are nuts!" second="Ты сумасшедший!"/>	
+	<word first="jerk" second="болван"/>
+	<word first="Move it!" second="Шевелись!"/>
+	<word first="Damn!" second="Чёрт!"/>
+	<word first="Piss off! Get lost!" second="Иди куда подальше!"/>	
+	<word first="It`s a piece of cake!" second="Проще простого!"/>	
+	<word first="You pissed me off!" second="Заколебал!"/>
+	<word first="Give me five!" second="Дай пять!"/>	
+	<word first="Wats`s up?" second="Что случилось?"/>
+	<word first="Later!" second="Пока!"/>
+	<word first="Hey!" second="Привет!"/>
+	<word first="Chill out!" second="расслабься"/>
+	<word first="I don`t give a damn!" second="Мне всё равно"/>
+	<word first="dude" second="чувак"/>
+	
+	<word first="nobody" second="никто"/>	
+	<word first="everybody" second="все"/>
+	<word first="something" second="что-то"/>	
+	<word first="by the way" second="кстати"/>
+	<word first="it seems to me" second="мне кажется"/>
+	<word first="well..." second="ну..."/>
+	<word first="cool" second="круто"/>
+	<word first="stand on a chair" second="стоять на стуле"/>	
+	<word first="the sun shines" second="солнце светит"/>
+	<word first="run" second="бежать"/>
+	<word first="ride a bicycle" second="ездить на велосипеде"/>
+	<word first="belive" second="верить"/>
+	
+	
+	<word first="prefer" second="предпочитать"/>	
+	<word first="find out" second="узнавать"/>	
+	<word first="midnight" second="полночь"/>	
+	<word first="ask a question" second="задать вопрос"/>	
+	<word first="answer a question" second="отвечать на вопрос"/>	
+	<word first="wash up" second="мыть посуду"/>	
+	<word first="housework" second="работа по дому"/>	
+	<word first="change" second="менять"/>
 	<word first="special" second="особенный"/>
-	<word first="make lunch" second="готовить обед"/>
+	<word first="you look great" second="хорошо выглядишь"/>	
+	<word first="gestures" second="жесты"/>
+	
+
+	<word first="wash something" second="стирать, мыть"/>
+	<word first="sweep the floor" second="подметать пол"/>
+	<word first="both" second="оба"/>
+	<word first="throw out the trash" second="выбрасывать мусор"/>
+	<word first="lie on the grass" second="лежать на траве"/>
+	<word first="do some cooking" second="готовить"/>
+	<word first="play cards" second="играть в карты"/>
+	<word first="pick flowers" second="рвать цветы"/>
+	<word first="neighbor" second="сосед"/>
+	<word first="do some gardening" second="работать в саду"/>
+	<word first="I don`t care" second="мне всё равно"/>
+	<word first="Guess what?" second="Угадай, что?"/>
+	<word first="clean off the table" second="убрать со стола"/>
+	<word first="do some dusting" second="вытирать пыль"/>
+	<word first="open the door" second="открывать дверь"/>
+	<word first="close the door" second="закрывать дверь"/>
+	<word first="go shopping" second="ходить по магазинам"/>
+	<word first="under" second="под"/>
+	<word first="it pisses me off" second="меня это раздражает"/>
+	<word first="dig" second="копать"/>
+	<word first="mend something" second="чинить"/>
+	<word first="tidy up" second="прибираться"/>
+	<word first="play volleyball" second="играть в волейбол"/>
+	<word first="above" second="над"/>
+	<word first="vacuum" second="пылесосить"/>
+	<word first="to iron something" second="гладить"/>
 	<word first="lay the table" second="накрывать на стол"/>
 	<word first="gestures" second="жесты"/>
 </Words>
