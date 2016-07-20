@@ -29,7 +29,6 @@ namespace Words.Model.IO
 
             result.AddRange(xml.ReadFromFile("level-2.xml"));
 
-
             return result;
         }
     }
